@@ -3,9 +3,11 @@ import React, { Component } from "react"
 class Footer extends Component {
     render() {
         return (
-            <footer>
-                <h1>Made with React</h1>
-            </footer>
+            <div className="border-t border-smoke px-8 py-4">
+                <div className="flex justify-center text-grey">
+                    Made with React
+                </div>
+            </div>
         )
     }
 }
