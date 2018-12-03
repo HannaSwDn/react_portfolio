@@ -3,6 +3,7 @@ import ReactDOM from "react-dom"
 import Hello from "./Hello"
 import Header from "./Header"
 import Footer from "./Footer"
+import "./css/tailwind.css"
 
 const App = () => {
     return (
