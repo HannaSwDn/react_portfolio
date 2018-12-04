@@ -1,10 +1,11 @@
+import { BrowserRouter } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 import React from "react"
 import ReactDOM from "react-dom"
 import Hello from "./Hello"
 import Header from "./Header"
 import Footer from "./Footer"
-import { Switch, Route } from 'react-router-dom'
-import { BrowserRouter } from 'react-router-dom'
 import Projects from "./Projects"
 import About from "./About"
 import "./css/tailwind.css"

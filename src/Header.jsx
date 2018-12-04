@@ -3,8 +3,14 @@ import React, { Component } from "react"
 class Header extends Component {
     render() {
         return (
-            <nav className="flex items-center justify-between flex-wrap bg-blue-darkest p-6">
-                    <h1 className="text-white text-3xl">My Portfolio</h1>
+            <nav className="header">
+                <h1 className="header-title">
+                    <Link className="text-white hover:text-grey no-underline" exact to='/'>My Portfolio</Link>
+                </h1>
+                <ul className="list-reset flex">
+                    <li className="mr-6"><NavLink className="text-white hover:text-grey no-underline" activeStyle={{fontWeight: "bold"}} exact to='/about'>About Me</NavLink></li>
+                    <li className="mr-6"><NavLink className="text-white hover:text-grey no-underline" activeStyle={{fontWeight: "bold"}} exact to='/projects'>My Projects</NavLink></li>
+                </ul>
             </nav>
         )
     }
