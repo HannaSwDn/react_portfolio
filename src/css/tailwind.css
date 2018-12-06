@@ -6118,6 +6118,68 @@ table {
   z-index: auto;
 }
 
+/** Page **/
+
+.page-wrapper {
+  min-height: 100vh;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/** Header **/
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #12283a;
+  padding: 1.5rem;
+}
+
+.header-title {
+  color: #fff;
+  font-size: 1.875rem;
+}
+
+/** Footer **/
+
+.footer-wrapper {
+  border-top-width: 1px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  color: #b8c2cc;
+}
+
+/** Content section **/
+
+.content-wrapper {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  flex: 1 1 0%;
+  overflow-y: scroll;
+}
+
+.content-text {
+  color: #8795a1;
+}
+
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;
