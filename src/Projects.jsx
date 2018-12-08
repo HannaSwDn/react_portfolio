@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import ProjectCard from "./ProjectCard"
 import axios from "axios"
 
 class Projects extends Component {
@@ -6,7 +7,7 @@ class Projects extends Component {
         super();
         this.state = {
             projects: []
-        };
+        }
     }
 
     componentDidMount() {

@@ -1,20 +1,20 @@
 import { BrowserRouter } from 'react-router-dom'
 import { Switch, Route } from 'react-router-dom'
-import React from "react"
-import ReactDOM from "react-dom"
-import Hello from "./Hello"
-import Header from "./Header"
-import Footer from "./Footer"
-import Projects from "./Projects"
-import About from "./About"
-import "./css/tailwind.css"
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Hello from './Hello'
+import Header from './Header'
+import Footer from './Footer'
+import Projects from './Projects'
+import About from './About'
+import './css/tailwind.css'
 
 const App = () => {
     return (
-        <div className="page-wrapper">
-            <div className="page-content">
+        <div className='page-wrapper'>
+            <div className='page-content'>
                 <Header />
-                <div className="content-wrapper">
+                <div className='content-wrapper'>
                     <Switch>
                         <Route exact path='/' component={Hello}></Route>
                         <Route exact path='/about' component={About}></Route>
