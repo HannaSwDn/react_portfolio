@@ -38,7 +38,7 @@ class Projects extends Component {
 
         return (
             <div>
-                <h1 className="content-text">My Projects</h1>
+                <h1 className="text-black montserrat uppercase">My Projects</h1>
                 {projectsList}
             </div>
         )

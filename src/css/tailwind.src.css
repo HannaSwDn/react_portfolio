@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 /** Page **/ 
 
 .page-wrapper {
@@ -14,6 +16,10 @@
 /** Header **/
 .header {
     @apply flex items-center justify-between flex-wrap bg-blue-darkest p-6;
+}
+
+.gradient {
+    background: linear-gradient(to right, #fff3f3, white);
 }
 
 .header-title {
@@ -40,5 +46,6 @@
     @apply text-grey-dark;
 }
 
-
-
+.montserrat {
+    font-family: Montserrat;
+}

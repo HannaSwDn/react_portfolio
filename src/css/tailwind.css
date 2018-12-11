@@ -6117,6 +6117,7 @@ table {
 .z-auto {
   z-index: auto;
 }
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 /** Page **/
 
@@ -6143,6 +6144,10 @@ table {
   flex-wrap: wrap;
   background-color: #12283a;
   padding: 1.5rem;
+}
+
+.gradient {
+  background: linear-gradient(to right, #fff3f3, white);
 }
 
 .header-title {
@@ -6178,6 +6183,10 @@ table {
 
 .content-text {
   color: #8795a1;
+}
+
+.montserrat {
+  font-family: Montserrat;
 }
 
 @media (min-width: 576px) {
